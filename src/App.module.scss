@@ -1,0 +1,70 @@
+
+.App {
+  min-height: 100vh;
+
+  background: url("assets/img/wallpaper.png") 0 0 no-repeat;
+  background-size: cover;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &__container {
+    margin: 0 20px;
+    padding: 40px 0;
+    max-width: 1120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  &__title {
+    margin-bottom: 24px;
+
+    text-align: center;
+    color: white;
+    font-family: 'Exo2';
+    font-size: 36px;
+    line-height: 44px;
+    font-weight: 100;
+  }
+
+  &__cardsWrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    row-gap: 30px;
+
+    & >:not(:last-child) {
+      margin-right: 80px;
+    }
+  }
+
+  @media (max-width: 1200px) {
+    &__cardsWrapper {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    &__cardsWrapper >:first-child {
+      margin: 0 210px;
+    }
+  }
+  @media (max-width: 800px) {
+    &__cardsWrapper >:not(:last-child) {
+      margin: 0 75px;
+    }
+  }
+  @media (max-width: 550px) {
+    &__cardsWrapper >:not(:last-child) {
+      margin: 0 5px;
+    }
+    &__title {
+      font-size: 22px;
+      font-weight: 200;
+    }
+  }
+}
+
+
+

@@ -1,0 +1,138 @@
+.Card {
+  &__container {
+    width: 320px;
+
+    font-family: 'Trebuchet MS';
+
+    //&:not(:last-child) {
+    //  margin-right: 80px;
+    //}
+    @media (max-width: 380px) {
+      width: 280px;
+    }
+  }
+  &__wrapper {
+    height: 480px;
+
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+    border: 4px solid #1698D9 ;
+    border-radius: 12px;
+    background-color: white;
+    overflow: hidden;
+
+    clip-path: polygon(50px 0,100% 0, 100% 100%,0 100%,0 50px);
+
+    &:before {
+      height: 4px;
+      width: 70px;
+      position: absolute;
+      top: 21px;
+      left: -13px;
+      content: '';
+
+      transform: rotate(-45deg);
+      background-color: #1698D9;
+
+    }
+  }
+  &__info {
+    margin-top: 21px;
+    width: 212px;
+
+  }
+
+  &__topTitle {
+    margin-bottom: 5px;
+
+    color: #666666;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+  }
+  &__mainTitle {
+    color: black;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+  }
+  &__flavorTitle {
+    margin-bottom: 15px;
+
+    color: black;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+  }
+  &__subTitle {
+    width: 120px;
+
+    color: #666666;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+  }
+  &__footer {
+    margin-top: 14px;
+
+    text-align: center;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    span {
+      color: white;
+      &:last-child {
+        color: #1698D9;
+      }
+    }
+    a {
+      margin-left: 6px;
+
+      color: #1698D9;
+      border-bottom: 1px #1698D9 dashed;
+    }
+  }
+
+  &__img {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+  &__weigth {
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    bottom: 16px;
+    right: 16px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #1698D9;
+    border-radius: 50%;
+
+    div:first-child {
+      margin-top: 15px;
+      font-weight: 400;
+      font-size: 42px;
+      line-height: 22px;
+
+      color: white;
+    }
+    div:last-child {
+      margin-top: 10px;
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 20px;
+
+      color: white;
+    }
+  }
+}
+
