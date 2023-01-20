@@ -1,0 +1,116 @@
+{
+  "fst": {
+    "defaultInfo": {
+      "topTitle": "Сказочное заморское яство",
+      "mainTitle": "Нямушка",
+      "flavorTitle": "c фуа-гра",
+      "subTitle": "10 порций мышь в подарок",
+      "weight": "0,5",
+      "footer": "Чего сидишь? Порадуй котэ,",
+      "footerLink": "купи"
+    },
+    "selectedInfo": {
+      "topTitle": "Сказочное заморское яство",
+      "mainTitle": "Нямушка",
+      "flavorTitle": "c фуа-гра",
+      "subTitle": "10 порций мышь в подарок",
+      "weight": "0,5",
+      "footer": "Печень утки разварная с артишоками",
+      "footerLink": ""
+    },
+    "selectedHoverInfo": {
+      "topTitle": "Котэ не одобряет?",
+      "mainTitle": "Нямушка",
+      "flavorTitle": "c фуа-гра",
+      "subTitle": "10 порций мышь в подарок",
+      "weight": "0,5",
+      "footer": "Печень утки разварная с артишоками",
+      "footerLink": ""
+    },
+    "disabledInfo": {
+      "topTitle": "Сказочное заморское яство",
+      "mainTitle": "Нямушка",
+      "flavorTitle": "c фуа-гра",
+      "subTitle": "10 порций мышь в подарок",
+      "weight": "0,5",
+      "footer": "Печалька, с фуа-гра закончился.",
+      "footerLink": ""
+    }
+  },
+  "scd": {
+    "defaultInfo": {
+      "topTitle": "Сказочное заморское яство",
+      "mainTitle": "Нямушка",
+      "flavorTitle": "с рыбой",
+      "subTitle": "40 порций 2 мыши в подарок",
+      "weight": "2",
+      "footer": "Чего сидишь? Порадуй котэ,",
+      "footerLink": "купи"
+    },
+    "selectedInfo": {
+      "topTitle": "Сказочное заморское яство",
+      "mainTitle": "Нямушка",
+      "flavorTitle": "с рыбой",
+      "subTitle": "40 порций 2 мыши в подарок",
+      "weight": "2",
+      "footer": "Головы щучьи с чесноком да свежайшая сёмгушка.",
+      "footerLink": ""
+    },
+    "selectedHoverInfo": {
+      "topTitle": "Котэ не одобряет?",
+      "mainTitle": "Нямушка",
+      "flavorTitle": "с рыбой",
+      "subTitle": "40 порций 2 мыши в подарок",
+      "weight": "2",
+      "footer": "Головы щучьи с чесноком да свежайшая сёмгушка.",
+      "footerLink": ""
+    },
+    "disabledInfo": {
+      "topTitle": "Сказочное заморское яство",
+      "mainTitle": "Нямушка",
+      "flavorTitle": "с рыбой",
+      "subTitle": "40 порций 2 мыши в подарок",
+      "weight": "2",
+      "footer": "Печалька, с рыбой закончился.",
+      "footerLink": ""
+    }
+  },
+  "trd": {
+    "defaultInfo": {
+      "topTitle": "Сказочное заморское яство",
+      "mainTitle": "Нямушка",
+      "flavorTitle": "с курой",
+      "subTitle": "100 порций 5 мышей в подарок заказчик доволен",
+      "weight": "5",
+      "footer": "Чего сидишь? Порадуй котэ,",
+      "footerLink": "купи"
+    },
+    "selectedInfo": {
+      "topTitle": "Сказочное заморское яство",
+      "mainTitle": "Нямушка",
+      "flavorTitle": "с курой",
+      "subTitle": "100 порций 5 мышей в подарок заказчик доволен",
+      "weight": "5",
+      "footer": "Филе из цыплят с трюфелями в бульоне.",
+      "footerLink": ""
+    },
+    "selectedHoverInfo": {
+      "topTitle": "Котэ не одобряет?",
+      "mainTitle": "Нямушка",
+      "flavorTitle": "с курой",
+      "subTitle": "100 порций 5 мышей в подарок заказчик доволен",
+      "weight": "5",
+      "footer": "Филе из цыплят с трюфелями в бульоне.",
+      "footerLink": ""
+    },
+    "disabledInfo": {
+      "topTitle": "Сказочное заморское яство",
+      "mainTitle": "Нямушка",
+      "flavorTitle": "с курой",
+      "subTitle": "100 порций 5 мышей в подарок заказчик доволен",
+      "weight": "5",
+      "footer": "Печалька, с курой закончился.",
+      "footerLink": ""
+    }
+  }
+}
